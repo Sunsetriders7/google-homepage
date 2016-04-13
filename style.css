@@ -15,3 +15,93 @@ body {
 	font-family: arial;
 	font-size: 18px;
 }
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	float: right;
+	display: block;
+	padding: 0 0 0 18px;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+
+}
+
+#topbar ul li {
+	margin-top: -10px;
+}
+
+#topbar {
+	margin: 25px 40px 0 0;
+	height: 100px;
+}
+
+#container {
+	margin: 10 0 0 0 auto;
+	text-align: center;
+}
+
+#logo {
+	margin: auto;
+
+}
+#searchbar {
+	margin: auto;
+	padding-top: 15px;
+}
+
+input{
+	height: 45px;
+	width: 40em;
+}
+
+#searchOptions {
+	margin-top:20px;
+}
+.button {
+	border: 1px solid #e0e0d1;
+	border-radius: 2px;
+	background-color: #e0e0d1;
+	font: 15px/27px Arial, sans-serif;
+	padding:6px 20px 6px 20px;
+	margin: 5px;
+	display: inline-block;
+	color: #7a7a52;
+
+}
+
+.button:hover {
+	color: black;
+	border: 1px solid #adad85;
+
+}
+input:hover {
+	border: 1px solid #adad85;
+	border-radius: 2px;
+}
+
+#bottombar {
+	border: 1px solid #e2e2e2;
+	height: 40px;
+	position: relative;
+	width: 100%;
+	background-color: #e0e0d1;
+	margin-top: 215px;
+	display: inline-block;
+}
+
+
+#bottomright {
+
+}
+
+#bottomleft ul li{
+	float: left;
+	display: inline-block;
+	
+}
