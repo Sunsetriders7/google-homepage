@@ -1,0 +1,17 @@
+#sign-in	{
+	border: 1px solid blue;
+	margin-top: 4px;
+	margin-right: 20px;
+	padding: 3px 12px 3px 12px;
+	background-color: blue;
+	display: inline-block;
+	border-radius: 2px;
+	color: white;
+	float: right;
+
+}
+
+body {
+	font-family: arial;
+	font-size: 18px;
+}
